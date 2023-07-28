@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+//Fuentes
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Yanone+Kaffeesatz:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
+
+
+body{
+    background-color: #FFE8A3 !important;
+}
+
+.titulo{
+    color: black;
+    size: 4rem;
+    font-family: 'Belanosima', sans-serif;
+
+}
+.subtitulo{
+    color: black;
+    size: 2rem;
+    text-decoration: underline solid;
+    font-family: 'Belanosima', sans-serif;
+
+}
+.b-white{
+    background-color:#ffffff;
+}
+.b-yellow{
+    background-color:#FCE8A4;
+}
+
+p,label{
+    font-family: 'Barlow Condensed', sans-serif;
+}

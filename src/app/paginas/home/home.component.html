@@ -1,0 +1,65 @@
+<div class="home-component">
+  <div class="row b-yellow nsize align-items-center justify-content-center">
+    <div class="col-12">
+      <nav>
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active b-tc" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active b-tc" (click)="goToPart('sobrenosotros')"
+              >Sobre Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active b-tc" (click)="goToPart('servicios')"
+              >Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active b-tc" (click)="goToPart('portafolio')"
+              >Portafolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active b-tc" (click)="goToPart('cotizacion')"
+              >Cotización</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="row b-white align-items-center psize">
+    <div class="col-7 justify-content-end">
+        <div class="text-center titulo">
+            <h1>Transformamos <br> ideas en <br> Corrientes Positivas</h1>
+        </div>
+     
+    </div>
+    <div class="col-5 text-left">
+      <img
+        src="assets/img/electricista.jpg"
+        alt="Descripción de la imagen"
+        class="img-home"
+      />
+    </div>
+  </div>
+
+  
+  <div id="sobrenosotros">
+    <app-sobre-nosotros></app-sobre-nosotros>
+  </div>
+
+  <div id="servicios">
+    <app-servicios></app-servicios>
+  </div>
+
+  <div id="portafolio">
+    <app-portafolio></app-portafolio>
+  </div>
+
+  <div id="cotizacion">
+    <app-cotizacion></app-cotizacion>
+  </div>
+
+
+
+</div>

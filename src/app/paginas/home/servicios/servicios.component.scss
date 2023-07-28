@@ -1,0 +1,30 @@
+.servicios{
+    padding: 2rem;
+    .card-servicio{
+        min-height: 10rem;
+        border-color: #FCE8A4;
+        border-width: 0.3rem;
+        border-style: dashed;
+        max-width: 20rem;
+        
+        img{
+            width: 10rem;
+            height: 10rem;
+        }
+    }
+    .titulo-card{
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 1.3rem;
+    }
+
+    .descripcion {
+        text-align: justify;
+    }
+
+    .btn-group-toggle .btn {
+        width: 370px;
+        background-color: #d9f3fa;
+        margin: 6px;
+      }
+      
+}
